@@ -28,39 +28,44 @@ in html
         </header>
         <hr />
         <nav>
-            <a class="current" href="index.html">Home</a>
-            <a href="about.html">About</a>
+            <a href="index.html">Home</a>
+            <a class="current" href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
         
         <br /> <br />
         
-        <main>
+        <div id ="content">
+            <table>
+                <tr id="table-header">
+                    <td><strong>Programming Language</strong></td>
+                    <td><strong>Years Experience</strong></td>
+                </tr>
+                <tr class="table-row">
+                    <td>Java</td>
+                    <td>3</td>
+                </tr>
+                <tr class="table-row">
+                    <td>C++</td>
+                    <td>2</td>
+                </tr>
+                <tr class="table-row">
+                    <td>PHP</td>
+                    <td>1</td>
+                </tr>
+            </table>
             
-            <figure>
-                <img src="img/andrew_bundy.png" alt="Picture of Andrew Bundy" />
-            </figure>
+            <br /> <br />
             
-            <div>
-                Hello <br/>
-                <p>
-                    Thank you for visiting my professional portfolio website.
-                </p>
-                <p>
-                    I am a Sofware Engineer and have been recently hired at the 
-                    Acme Corporation.
-                </p>
-                <p>Feel free to contact me.</p>
-                
-                <br /> <br />
-                
-                <em>"With ordinary talent and extraordinary 
-                <strong>perserverance</strong>, all things are attainable</em>
-                <br />
-                - Thomas F. Buxton
-            </div>
-            
-        </main>
+            <ul>
+                <li><span class="hobby">Reading</span>: Sci-Fi, Humor, Satire
+                  </li>
+                <li><span class="hobby">Bands</span>: Blue Oyster Cult,
+                  Metallica, Oingo Boingo</li>
+                <li><span class="hobby">Writing</span>: Satire, Horror, Sci-Fi
+                  </li>
+            </ul>
+        </div>
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
