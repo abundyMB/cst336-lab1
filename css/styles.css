@@ -7,6 +7,12 @@ header, main, nav, footer {
     text-align: center;
 }
 
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
 nav a { /* Links within nav container */
     padding:15px;
     padding-bottom:4px;
